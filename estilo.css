@@ -32,10 +32,11 @@
     align-items: center;
     
 }
-.button {
+#search {
     padding-right: 25px;
     width: 50px;
     height: 50px;
+    width: 700px;
 }
 .categorias {
     display: flex;
@@ -49,15 +50,48 @@ a {
     color: white;
     font-size: 24px;
 }
-input {
-    width: 700px;
-}
-input, textarea {
+
+#search , textarea {
     background-color: #ffffff;
     color: #000000;
     font-size: 25px;
     border-radius: 10px;
     margin: 0 20px 20px 0;
     padding: 10px 7px;
+}
+.button {
+    padding-right: 30px;
+}
+.rodape {
+    margin-top: 500px;
+    padding: 25px 50px;
+    color: white;
+    background: rgb(82,9,115);
+    background: linear-gradient(0deg, rgba(82,9,115,1) 0%, rgba(155,17,217,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3 {
+    font-size: 20px;
+}
+.news {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.seta {
+    padding-right: 10px;
+}
+.textRoda {
+    font-size: 20px;
+}
+.oferta {
+    font-size: 20px;
 }
 
